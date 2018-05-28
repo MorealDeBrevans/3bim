@@ -8,7 +8,7 @@ body {
   	color: #3F0505;
 }
 
-header, article, .sidenav {
+header, article {
 		background-color: #F7EAB8;
 		border: solid 5px;
   	border-color: coral;
@@ -19,42 +19,37 @@ header {
   	height: 20%;
 }
 
-article, .sidenav {
-	margin: 10;
-	display: inline-block;
-	vertical-align: top;
-}
-
 article {
-  	/*float: right;*/
-  	width: 79%;
-  	padding: 8px 8px 8px 8px;
+	margin: 10 10 10 0;
 }
 
-.sidenav {
+#sidenav {
+    float: left;
     width: 18%;
     height: 80%;
-    /*position: fixed;*/
-    /*float: left;*/
-    left: 0;
     padding-top: 20px; /* Place content 20px from the top */
 }
 
-.sidenav a, p {
+#contenu {
+  	overflow: hidden;
+  	padding: 8px 8px 8px 8px;
+}
+
+#sidenav a, p {
     padding: 8px 8px 8px 32px;
     font-size: 25px;
     display: block;
 }
 
-.sidenav a, article a {
+a {
     color: #F13427;
     text-decoration: none;
 }
 
-div span {
-	float: right;
-}
-
 a:hover {
 	text-decoration: underline;
+}
+
+div span {
+	float: right;
 }
