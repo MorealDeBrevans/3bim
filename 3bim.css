@@ -16,7 +16,6 @@ header, article {
 
 header {
   	padding: 8px 8px 8px 8px;
-  	/*height: 20%;*/
 }
 
 article {
@@ -25,14 +24,16 @@ article {
 
 #sidenav {
     float: left;
-    /*width: 18%;*/
-   /* height: 80%;*/
-    padding-top: 20px; /* Place content 20px from the top */
+    padding-top: 20px;
 }
 
 #contenu {
   	overflow: hidden;
   	padding: 8px 8px 8px 8px;
+}
+
+#contenu p {
+	font-size: 18px;
 }
 
 #sidenav a, p {
