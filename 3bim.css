@@ -1,5 +1,12 @@
-img {
+header.img {
 		object-fit: contain;
+}
+
+img {
+	display: block;
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 body {
