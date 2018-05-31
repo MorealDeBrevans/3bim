@@ -30,6 +30,7 @@ article {
 #contenu {
   	overflow: hidden;
   	padding: 8px 8px 8px 8px;
+  	text-align: justify;
 }
 
 #contenu p {
